@@ -1,0 +1,512 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1716292239175427, "dur":11388, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716292239186818, "dur":61, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716292239186920, "dur":356, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716292239187304, "dur":514, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716292239187819, "dur":633343, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716292239821163, "dur":100, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716292239821299, "dur":102, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716292239821514, "dur":1199, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1716292239187503, "dur":365, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716292239187868, "dur":3693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716292239191648, "dur":7917, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":1, "ts":1716292239191563, "dur":8004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1716292239199590, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1716292239200486, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1716292239200627, "dur":5336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1716292239206047, "dur":69005, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":1, "ts":1716292239206046, "dur":69008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr.exe" }}
+,{ "pid":12345, "tid":1, "ts":1716292239275062, "dur":47175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr.exe" }}
+,{ "pid":12345, "tid":1, "ts":1716292239322251, "dur":275, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716292239322250, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716292239322532, "dur":37973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716292239360519, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716292239360518, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716292239360630, "dur":2809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716292239363453, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716292239363452, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716292239363567, "dur":26353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716292239389933, "dur":118747, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716292239389931, "dur":118750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716292239508687, "dur":124442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716292239633150, "dur":69633, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716292239633149, "dur":69635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716292239702792, "dur":3162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716292239705963, "dur":49943, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716292239705962, "dur":49945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716292239755930, "dur":57451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716292239813415, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1716292239814965, "dur":6174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716292239187467, "dur":390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716292239187858, "dur":3697, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716292239191563, "dur":534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1716292239193466, "dur":5833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1716292239199401, "dur":6033, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1716292239199399, "dur":6037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1716292239205450, "dur":636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1716292239206164, "dur":3930, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239206163, "dur":3932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239210281, "dur":41110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239251406, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239251405, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239251566, "dur":14917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239266497, "dur":353, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239266496, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239266858, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239268421, "dur":53948, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239268419, "dur":53951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239322375, "dur":37779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239360168, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239360167, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239360310, "dur":2955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239363273, "dur":76641, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239363272, "dur":76643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239439920, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239440792, "dur":77176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239440791, "dur":77179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239517978, "dur":115103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239633096, "dur":165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239633095, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239633281, "dur":14061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239647352, "dur":157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239647351, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239647515, "dur":27382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239674907, "dur":124772, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239674906, "dur":124775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239799689, "dur":13443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716292239813164, "dur":3168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1716292239816348, "dur":4828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716292239187430, "dur":397, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716292239187830, "dur":3719, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716292239192325, "dur":338, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1716292239192832, "dur":1699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1716292239194535, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1716292239195214, "dur":5250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1716292239200568, "dur":38120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239200565, "dur":38124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239244203, "dur":13585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239257853, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239257852, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239257989, "dur":8719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239266722, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239266720, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239266887, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239268448, "dur":51955, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239268447, "dur":51957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239320413, "dur":10843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239331279, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239331277, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239331456, "dur":29231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239360697, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239360696, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239360771, "dur":2717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239363497, "dur":181304, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239363496, "dur":181307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239544812, "dur":88265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239633090, "dur":72708, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239633089, "dur":72710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239705805, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239706555, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239706554, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239706652, "dur":437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239707097, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\Data\\Plugins\\x86_64\\lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239707096, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239715638, "dur":533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716292239716181, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\com.unity.services.core\\UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1716292239716180, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1716292239716389, "dur":5988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1716292239722398, "dur":89596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1716292239812010, "dur":4489, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1716292239812009, "dur":4491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1716292239816506, "dur":630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1716292239817143, "dur":4020, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716292239187462, "dur":390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716292239187853, "dur":3698, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716292239191582, "dur":9896, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1716292239191564, "dur":9916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1716292239201689, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1716292239202626, "dur":8473, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1716292239202623, "dur":8478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1716292239211112, "dur":2173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1716292239213403, "dur":2347, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239213401, "dur":2351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239215760, "dur":50427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239266204, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239266203, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239266356, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239267770, "dur":63918, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239267769, "dur":63920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239331718, "dur":28989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239360721, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239360720, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239360835, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239363529, "dur":36598, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239363528, "dur":36600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239400135, "dur":451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239400594, "dur":43401, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239400593, "dur":43403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239444015, "dur":4614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239448640, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239448639, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239448732, "dur":183434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239632180, "dur":306, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239632179, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239632494, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239634158, "dur":16405, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239634156, "dur":16408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239650569, "dur":20365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239670943, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239670943, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239671030, "dur":4763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239675807, "dur":94077, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239675805, "dur":94080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239769891, "dur":43307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716292239813233, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1716292239814213, "dur":6951, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716292239187495, "dur":366, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716292239187862, "dur":3692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716292239191580, "dur":8073, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1716292239191569, "dur":8085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1716292239199679, "dur":768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1716292239200547, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1716292239200731, "dur":43982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1716292239244799, "dur":294, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239244798, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239245099, "dur":21236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239266348, "dur":1052, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239266347, "dur":1053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239267405, "dur":2353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239269771, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239269770, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239269874, "dur":52121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239322012, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239322011, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239322117, "dur":37619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239359750, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239359749, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239359859, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239361724, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239361723, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239361796, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239363591, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239363589, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239363702, "dur":26454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239390165, "dur":16641, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239390164, "dur":16643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239406812, "dur":471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239407290, "dur":186066, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239407290, "dur":186068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239593365, "dur":39531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239632908, "dur":1477, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239632907, "dur":1478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239634391, "dur":16415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239650819, "dur":23677, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239650818, "dur":23680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239674503, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239675832, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239675831, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239675953, "dur":7893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239683857, "dur":38344, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239683855, "dur":38347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239722211, "dur":12310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716292239734545, "dur":78852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1716292239813413, "dur":2703, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1716292239813412, "dur":2705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1716292239816125, "dur":508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1716292239816642, "dur":4532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716292239187525, "dur":348, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716292239187873, "dur":3686, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716292239191564, "dur":714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1716292239193795, "dur":6410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1716292239200296, "dur":6605, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1716292239200293, "dur":6610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1716292239206912, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1716292239207747, "dur":2260, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239207746, "dur":2263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239210635, "dur":3778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239214428, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239214427, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239214580, "dur":51598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239266197, "dur":526, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239266195, "dur":530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239266732, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239268526, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239268525, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239268664, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239269769, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239269768, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239269887, "dur":52103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239322007, "dur":508, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239322005, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239322520, "dur":37641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239360175, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239360174, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239360308, "dur":2893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239363212, "dur":127137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239363211, "dur":127139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239490359, "dur":142616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239632991, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239632990, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239633126, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239634559, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239634558, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239634653, "dur":35422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239670085, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239670084, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239670169, "dur":5475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239675656, "dur":87598, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239675654, "dur":87601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239763261, "dur":50165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716292239813439, "dur":7721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716292239187551, "dur":327, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716292239187878, "dur":3674, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716292239191565, "dur":557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1716292239193794, "dur":6406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1716292239200284, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1716292239200448, "dur":5532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1716292239206066, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1716292239206377, "dur":7680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1716292239214145, "dur":214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239214143, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239214382, "dur":46255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239260657, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239260655, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239260826, "dur":6181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239267021, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239267020, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239267119, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239268451, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239268450, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239268605, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239269648, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239269646, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239269751, "dur":52251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239322019, "dur":344, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239322018, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239322371, "dur":37708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239360093, "dur":273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239360092, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239360372, "dur":2154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239362535, "dur":33832, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239362534, "dur":33834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239396375, "dur":704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239397088, "dur":64672, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239397087, "dur":64675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239461771, "dur":171302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239633087, "dur":179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239633086, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239633283, "dur":14029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239647322, "dur":35953, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239647321, "dur":35956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239683286, "dur":683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239683978, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239683977, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239684125, "dur":508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239684643, "dur":78494, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239684641, "dur":78497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239763147, "dur":50116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716292239813449, "dur":3621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1716292239817081, "dur":4086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716292239187576, "dur":306, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716292239187882, "dur":3683, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716292239191565, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1716292239193455, "dur":6880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1716292239200419, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1716292239200576, "dur":44113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1716292239244786, "dur":230, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239244785, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239245025, "dur":21156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239266197, "dur":1905, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239266195, "dur":1908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239268109, "dur":53764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239321889, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239321887, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239321993, "dur":37607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239359621, "dur":657, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239359619, "dur":660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239360305, "dur":3178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239363494, "dur":136385, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239363493, "dur":136388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239499888, "dur":132975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239632877, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239632875, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239632993, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239634478, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239634477, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239634559, "dur":35632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239670200, "dur":110493, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239670200, "dur":110495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239780703, "dur":32738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716292239813456, "dur":7684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716292239187599, "dur":288, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716292239187888, "dur":3690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716292239191601, "dur":8467, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1716292239191578, "dur":8492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1716292239200078, "dur":658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1716292239200818, "dur":29445, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239200816, "dur":29448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239244117, "dur":17420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239261638, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239261630, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239261777, "dur":5388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239267179, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239267178, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239267355, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239268730, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239268729, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239268861, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239269987, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239269986, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239270111, "dur":51963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239322088, "dur":399, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239322086, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239322494, "dur":37507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239360014, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239360013, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239360115, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239362308, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239362307, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239362446, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239363720, "dur":54911, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239363719, "dur":54913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239418659, "dur":497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239419165, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239419164, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239419263, "dur":431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239419702, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239419701, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239419782, "dur":18061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239437852, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239437851, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239437951, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239438818, "dur":9419, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239438817, "dur":9424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239448249, "dur":477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239448734, "dur":80972, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239448733, "dur":80975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239529717, "dur":103085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239632816, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239632815, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239632934, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239634483, "dur":26193, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239634483, "dur":26195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239660688, "dur":14738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239675435, "dur":838, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239675435, "dur":839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239676280, "dur":8129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239684417, "dur":31372, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239684417, "dur":31373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239715799, "dur":481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716292239716306, "dur":6298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1716292239722632, "dur":98480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1716292239187632, "dur":258, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716292239187891, "dur":3690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716292239191582, "dur":515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1716292239193453, "dur":51303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1716292239244858, "dur":183, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239244856, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239245046, "dur":21397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239266459, "dur":204, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239266458, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239266671, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239267991, "dur":54913, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239267990, "dur":54915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239322910, "dur":37024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239359948, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239359946, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239360055, "dur":2227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239362296, "dur":27707, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239362295, "dur":27709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239390026, "dur":500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239390534, "dur":15860, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239390533, "dur":15862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239406402, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239407172, "dur":100575, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239407171, "dur":100578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239507755, "dur":125101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239632871, "dur":14173, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239632870, "dur":14175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239647054, "dur":23275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239670339, "dur":76279, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239670338, "dur":76282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239746629, "dur":66756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716292239813415, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1716292239814685, "dur":6490, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716292239187653, "dur":242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716292239187895, "dur":3662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716292239191656, "dur":9236, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1716292239191565, "dur":9328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1716292239200919, "dur":703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1716292239201700, "dur":60754, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239201698, "dur":60758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239262461, "dur":59229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239321778, "dur":343, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239321777, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239322127, "dur":37637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239359778, "dur":174, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239359777, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239359961, "dur":2159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239362131, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239362130, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239362237, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239363684, "dur":45767, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239363683, "dur":45769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239409457, "dur":415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239409880, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239409879, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239409960, "dur":445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239410413, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239410412, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239410510, "dur":8465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239418984, "dur":739, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239418983, "dur":741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239419729, "dur":18000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239437740, "dur":159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239437739, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239437906, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239438824, "dur":139780, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239438823, "dur":139783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239578614, "dur":54274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239632902, "dur":17801, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239632901, "dur":17804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239650712, "dur":24269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239674992, "dur":59400, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239674991, "dur":59403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239734404, "dur":77426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716292239811845, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1716292239811843, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1716292239811952, "dur":688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1716292239812660, "dur":2256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1716292239814938, "dur":6239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716292239187679, "dur":220, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716292239187899, "dur":3659, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716292239191568, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1716292239193497, "dur":51209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1716292239244799, "dur":786, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239244798, "dur":788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239245593, "dur":21001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239266607, "dur":312, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239266605, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239266927, "dur":1514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239268455, "dur":809, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239268454, "dur":812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239269273, "dur":52620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239321904, "dur":599, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239321903, "dur":601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239322508, "dur":37551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239360073, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239360072, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239360184, "dur":2399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239362592, "dur":192501, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239362591, "dur":192503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239555101, "dur":77863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239632973, "dur":36888, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239632973, "dur":36890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239669874, "dur":5571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239675456, "dur":62554, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\mult\\multimetr\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239675455, "dur":62556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/build/multimetr_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239738019, "dur":75228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716292239813283, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/build/multimetr_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1716292239814212, "dur":6953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716292239823622, "dur":1507, "ph":"X", "name": "ProfilerWriteOutput" }
+,
